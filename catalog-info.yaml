@@ -7,5 +7,5 @@ metadata:
     github.com/project-slug: backstage/backstage
 spec:
   type: website
-  owner: ${BACKSTAGE_OWNER}
+  owner: Schabo
   lifecycle: experimental
