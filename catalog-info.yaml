@@ -9,7 +9,9 @@ metadata:
     - url: https://backstage.io
       title: Location
       icon: backstage
-      type: URL    
+      type: URL
+  tags:
+    - typescript
 spec:
   type: website
   owner: Schabo
