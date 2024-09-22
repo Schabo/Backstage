@@ -7,8 +7,8 @@ metadata:
     github.com/project-slug: backstage/backstage
   links:
     - url: https://backstage.io
-      title: Location
-      icon: backstage
+      title: Official website
+      icon: dashboard
       type: URL
   tags:
     - typescript
