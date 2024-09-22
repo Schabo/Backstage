@@ -5,6 +5,11 @@ metadata:
   description: Backstage
   annotations:
     github.com/project-slug: backstage/backstage
+  links:
+    - url: https://backstage.io
+      title: Location
+      icon: backstage
+      type: URL    
 spec:
   type: website
   owner: Schabo
