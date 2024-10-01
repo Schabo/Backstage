@@ -32,13 +32,12 @@ integrations:
 
 proxy:
   '/argocd/api':
-    target: http://argocd.maximillian.se/api/v1/
+    target: https://argocd.maximillian.se/api/v1/
     changeOrigin: true
     # only if your argocd api has self-signed cert
     secure: false
     headers:
-      Cookie:
-        $env: ARGOCD_AUTH_TOKEN
+      Cookie: "argocd.token=${ARGOCD_AUTH_TOKEN}"
 
 techdocs:
   builder: 'local'
